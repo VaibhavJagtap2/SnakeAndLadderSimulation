@@ -37,7 +37,7 @@ public class SnakeAndLadder {
 		     else {
 		    	 	System.out.println("No Play");
 		     }
-			System.out.println(" "+playerPosition);
+			System.out.println("Dice : "+DICE+"  | playerPosition : "+playerPosition);
 		}
 		
 		
@@ -45,6 +45,7 @@ public class SnakeAndLadder {
   public static void main(String[] args) {
 	 SnakeAndLadder Player1 = new SnakeAndLadder();
 	 Player1.GamePlayed();
+	 System.out.println("CONGRATULATIONS YOU WON!!");
   }
 }		
 
